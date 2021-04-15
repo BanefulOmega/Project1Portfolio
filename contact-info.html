@@ -1,0 +1,55 @@
+<html> 
+        <head>
+                <title>Portfolio</title>
+                <link rel="stylesheet" href="styles.css">
+        </head>
+<body>
+        <div class="heading">
+                <h2 class="name">Christopher Bivona</h2>
+                <h3>My contact information:</h3>
+                <h4>Email: chrisbivona24@gmail.com  Phone#: 718-869-3542</h4>
+        </div>
+        <div class="navigation-bar">
+        <a href="projectpage1.html" class="navigation-link">About Me</a>
+        <a href="work-experience.html" class="navigation-link">Work Experience</a>
+        <a href="#" class="navigation-link">Contact Me</a>
+        </div>
+        
+        <h3 class="sub-heading">Put Your Contact Information Here And Reason: </h3>
+        <div class="form contact-form">
+                        <form action="/contactMe" method="GET" class="contact-form">
+                        <label for="firstname">First Name :</label>
+                        <input type="text" id="firstname" name="firstname" maxlength="12" required>
+                        <br><br>
+                        <form action="/contactMe" method="GET" class="contact-form">
+                            <label for="lastname">Last Name :</label>
+                            <input type="text" id="lastname" name="lastname" maxlength="12" required>
+                        <br><br><br><br>
+                        <form action="/contactMe" method="GET" class="contact-form">
+                            <label for="email">Email :</label>
+                            <input type="text" id="email" name="email" maxlength="25" required>
+                        <br><br><br><br>
+                        <label for="gender">Gender : </label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                        <br><br>
+                        <label for="contactFor">Contact For:</label>
+                        <input type="checkbox" id="contactFor" name="contactFor" value="Profession/Job">
+                        <label for="contactFor">Profession/Job</label>
+                        <input type="checkbox" id="contactForm" name="contactFor" value="Personal">
+                        <label for="contactFor">Personal</label>
+                        
+                        <div class="button">
+                        <input type="button" value="Clear">
+                        <input type="submit" value="Submit">
+                        </div>
+                </form>
+                
+        </div>
+        
+</body>
+</html>
